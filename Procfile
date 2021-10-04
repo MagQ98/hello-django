@@ -1,2 +1,1 @@
-web: gunicorn django_todo.wsgi:application
-web: node index.js
+web: gunicorn django_todo.wsgi:application --log-file - --log-level debug
