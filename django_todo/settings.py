@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-xpylt&ej4pd%ip@-h_&#83=dj02vpk03kzhs&371*&rpdcz4&4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mq-django-todo-app.herokuapp.com']
 
 
 # Application definition
